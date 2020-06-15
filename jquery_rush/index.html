@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- To make responsive web page/source w3 schools-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rush 2048</title>
+    <!-- Adding a pretty font for web page-->
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container"
+  <header id="header">
+    <div id="gametitle">
+      <h1>Wanna play 2048 ?</h1>
+
+      <div id="totalscore">Total score</div>
+        <div id="bestscore">Best Score</div>
+      </div><br/>
+      <div id="game-launch">
+        <p>Crash numbers till you have 2048 ;)</p>
+        <button id="game-button">Start to play</button>
+      </div>
+    </header>
+
+    <div class="Games">
+        <!-- le 2048 sera inséré ici -->
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="Base2048.js"></script>
+    <script type="text/javascript">
+        $(function()
+        {
+            $('.Games').game2048(); // appel de la fonction 'game2048' du pluggin appliquée à la div de class 'Games'
+        });
+    </script>
+  </div>
+</body>
+</html>

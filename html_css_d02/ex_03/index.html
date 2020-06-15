@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yilmaz Putun/Epitech</title>
+    <link rel="stylesheet" href="codingpedia.css" />
+  
+</head>
+
+
+    <header class="page-header">
+        <h1>Welcome to CodingPedia</h1>
+        <nav>
+            <div class="ul-horizontal">
+            <ul>
+                <li>
+                    <p><a href="index.html">Index page</a></p>
+                    <li>
+                        <p><a href="php.html"> Php page </a></p>
+                    </li>
+                    <li>
+                        <p><a href="sql.html"> Sql page </a></p>
+                    </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <body>
+    <main>
+
+
+      <div class="left-side">
+        <div class="border-setup>"
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual, and functions as a wiki. CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve</p>
+
+        <p>I am Yilmaz, currently a student at the coding-academy, and I love to stay in the pool all day long”</p>
+      </div>
+        <hr/>
+        <section class="formsection">
+          <div class="form-padding">
+            <form class="my-form">
+                <div class="my-form">
+                    <label for="name">Your Name :</label>
+                    <input type="text" id="name" name="user_name" required>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="my-form">
+                    <label for="First-Name">Your First Name :</label>
+                    <input type="text" id="name" name="user_firstname" required>
+                    <br/>
+                    <br/>
+                </div>
+
+                <div class="my-form">
+                    <label for="email">Your e-mail :</label>
+                    <input type="email" id="email" name="user_mail" required>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="my-form">
+                    <label for="age">Your age (between 3 years old and 99):</label>
+                    <input type="number" id="age" name="yourage" min="3" max="99">
+                    <br/>
+                    <br/>
+                </div>
+
+                <div class="my-form">
+                    <label for="phone">Enter your phone number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9][0-9][0-9][0-9][0-9]">
+                    <br/>
+                    <br/>
+                  </div>
+
+
+                <div class="my-form">
+                  <label for="text">Please choose your gender</label>
+                    <input type="radio" id="male" name="gender" value="male" checked>Male<br/>
+                    <input type="radio" id="female" name="gender" value="female">Female<br/>
+                    <br/>
+                </div>
+                <!-- ceci est un commentaire html -->
+                <div class="my-form">
+                    <label for="hairs">Please choose your hair color</label>
+                    <input type="color" id="haircolorpattern" name="hairspattern" <select>
+                    </select>
+                    <br/>
+                    <br/>
+                </div>
+
+                <div class="my-form">
+                    <label for="date">Date</label>
+                    <input type="date" id="today" name="date-date"
+                    value="2020-02-21"
+                    min="2018-01-01" max="2030-12-31">
+                    <br/>
+                    <br/>
+                </div>
+
+              <div class="my-form">
+                    <label for="dropdownlist">Please choose any technology that you would like to learn</label>
+                    <select name="cars"size="1" multiple>
+                      <option value="">--Please choose an option--</option>
+                        <option value="C#">C#</option>
+                        <option value="PHP">Php</option>
+                        <option value="HTML">Html</option>
+                        <option value="JS">Java Script</option>
+                    </select>
+                    <br/>
+                    <br/>
+                  </div>
+
+                    <div class="my-form">
+
+                        <label class="padding-question"for="question">Any question about? :</label>
+                       <textarea class="question-textarea"id="msg" name="user_message" rows="5" cols="33"></textarea>
+                     </div>
+                    </div>
+
+                    <div class="my-form">
+                      <div class="button-setup">
+                      <button id="send-message-button" type="submit">Send your message</button>
+                      <br/>
+                      <br/>
+                    </div>
+                    </div>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div class="right-side">
+      <aside>
+          <p>Even I worked in logistics domain for a long time, I would like to developpe my skills in <em>IT</em>
+      </aside>
+    </div>
+    </main>
+    <div class="stop-float"></div>
+    <footer class="inline">
+        <p>Yilmaz Putun</p>
+        <p>8 Rue de l'Argonne, 67000/Strasbourg</p>
+        <p><a href="tel:06-16-27-83-68">0616278368</a>
+            <p id="my-email"><a href="mailto:yilmaz.putun@hotmail.com">Please send me an email by this link</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.note {
+  border-style: groove;
+  border-color: blue;
+}
+
+.email {
+  border-style: groove;
+  border-color: green;
+}
+
+.todo {
+  border-style: groove;
+  border-color: red; 
+}

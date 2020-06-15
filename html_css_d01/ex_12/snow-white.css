@@ -1,0 +1,32 @@
+/* ==General settings of web page== */
+
+body {
+  height: 100%;
+  background-color: yellow;
+  overflow: auto;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+}
+
+
+/* Style for this class which contains paragraphes */
+.a-great-style0 {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: black;
+  font-size: 21px;
+  color: white;
+
+}
+
+.a-great-style1 {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: white;
+  font-size: 27px;
+  color: black;
+}
+/* this is how to choose only one word in a paragraphe and style it! */
+span {
+  color: red;
+  font-style: italic;
+}

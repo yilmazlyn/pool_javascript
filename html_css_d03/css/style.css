@@ -1,0 +1,31 @@
+/*My basic CSS codes*/
+@font-face {
+  font-family: 'Courier_Prime';
+  src: local("Courier_Prime"),url(mock-ups/Courier_Prime.ttf);
+}
+
+.text_p {
+  color: orange /*!important*/;
+}
+
+
+.main_div:{
+/*  display: flex;
+  justify-content: space-between;*/
+}
+.main_child{
+  background-color: white;
+  padding: 2%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.main_child:hover{
+  width: 105%;
+}
+body {
+  background-color: lightgrey;
+  font-family: Courier_Prime;
+  font-size: 20px;
+}
+.pagination-section{
+  padding: 3%;
+}

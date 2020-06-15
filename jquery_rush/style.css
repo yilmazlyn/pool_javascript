@@ -1,0 +1,138 @@
+body {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  background: url("https://i.pinimg.com/originals/3e/1d/ea/3e1dea51806f252682fc770a340dc989.jpg")
+}
+#container {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+#gametitle {
+  font-size:40px;
+  text-align:center;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+
+}
+#totalscore {
+border: solid;
+border-radius:15px;
+
+}
+
+#bestscore {
+border: solid;
+border-radius: 15px;
+}
+
+#game-launch {
+  font-size:50px;
+  text-align:center;
+  color: white;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+p {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+#game-button {
+  position: sticky;
+  border:solid;
+  border-radius: 15px;
+  border-color: lightblue;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: #034077;
+  opacity: 0.8;
+}
+
+.Games {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: block;
+  opacity: 0.9;
+}
+
+table {
+    margin: auto;
+    padding: 15px;
+    border-spacing: 10px;
+    border: solid 8px white;
+    border-radius: 15px;
+    background-color: black;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    border: solid 4px lightblue;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+
+td[nbr="0"] {
+  background-color: LightBlue;
+  color: LightBlue;
+}
+
+td[nbr="2"] {
+  background-color: #fbdc99;
+}
+
+td[nbr="4"] {
+  background-color: #e9a344;
+}
+
+td[nbr="8"] {
+  background-color: 	#de7637;
+}
+
+td[nbr="16"] {
+  background-color: #984010;
+}
+
+td[nbr="32"] {
+  background-color: #ad440b;
+}
+
+td[nbr="64"] {
+  background-color: #8d2e18;
+}
+
+td[nbr="128"] {
+  background-color: #953622;
+}
+
+td[nbr="256"] {
+  background-color: #8a2721;
+}
+
+td[nbr="512"] {
+  background-color: #9c4939;
+}
+
+td[nbr="1024"] {
+  background-color: #8f6648;
+}
+
+td[nbr="2048"] {
+  background-color: #034077;
+}

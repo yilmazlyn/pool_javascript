@@ -1,0 +1,20 @@
+/* ==General settings of web page== */
+
+body {
+  height: 100%;
+  overflow: auto;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* Style for this class which contains paragraphes */
+.a-great-style {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: red;
+
+}
